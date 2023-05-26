@@ -1,0 +1,11 @@
+sucos=[{"NOME":"Lajama","Ingredientes":["Laranja,Jaca,Maracuja"],
+        "NOME":"Puma","Ingredientes":["Pessego,Uva,Manga,Acelora","Melancia"],
+        "NOME":"Melica","Ingredientes":["Mamão","Limão","Caju"],
+        "NOME":"Calice","Ingredientes":["Caju","Limão","Cereja"],
+        "NOME":"Cajamar","Ingredientes":["Caju","Jaca","Maracuja","Melancia"],
+        "NOME":"Umcalia","Ingredientes":["Umbu","Caju","Limão","Acelora"],
+        "NOME":"Pelia","Ingredientes":["Pessego","Limão","Acelora"],
+        "NOME":"Suce","Ingredientes":["Acelora","Laranja","Limão","Abacaxi"],
+        "NOME":"Pimio","Ingredientes":["Caju","Banana","Açai"],
+        "NOME":"Acido" ,"Ingredientes":["Umbu","Abacaxi","Maracuja","Limão"],
+}]

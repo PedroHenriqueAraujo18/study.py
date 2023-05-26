@@ -1,0 +1,29 @@
+print("="*30+"ENTRADA DE DADOS"+"="*30)
+
+A=int(input("Digite um valor para A = "))
+B=int(input("Digte um valor para B = "))
+
+print("="*30+"PROCESSAMENTOS DE DADOS"+"="*30)
+if A == B:
+  C=A+B
+  print("{}+{}={}".format(A,B,C))
+else:
+  C=A*B
+  print("{}*{}={}".format(A,B,C))
+
+D=(input("Dejesa continuar? S/N = "))
+
+if D == "S":
+  
+    A=int(input("Digite um valor para A = "))
+    B=int(input("Digte um valor para B = "))
+
+    if A == B:
+        C=A+B
+        print("{}+{}={}".format(A,B,C))
+    else:
+        C=A*B
+        print("{}*{}={}".format(A,B,C))
+elif D == "N" or None:
+   print("="*30+"SAÍDA DE DADOS"+"="*30)
+print("Fim do programa")
