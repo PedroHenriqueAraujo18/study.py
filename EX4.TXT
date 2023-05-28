@@ -1,0 +1,25 @@
+
+EX4
+
+
+x = int(input("Digite o valor de x: "))
+y = int(input("Digite o valor de y: "))
+
+
+if x < y:
+
+    z = int(input("Digite o valor de z: "))
+    
+
+    if z == x:
+        print("O valor de z pertence ao intervalo e é o limite inferior.")
+    elif z == y:
+        print("O valor de z pertence ao intervalo e é o limite superior.")
+    elif x < z < y:
+        print("O valor de z pertence ao intervalo.")
+    elif z > y:
+        print("O valor de z está fora do intervalo e é maior do que o limite superior.")
+    elif z < x:
+        print("O valor de z está fora do intervalo e é menor do que o limite inferior.")
+else:
+    print("Os valores de x e y não formam um intervalo válido.")
